@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Educa||About</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/74fecec165.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .banner {
+        background-image: url(heading-bg.jpg);
+        width: 100%;
+        height: 250px;
+        position: relative;
+      }
+      .banner_Text {
+        margin: auto;
+        position: absolute;
+        top: 30%;
+        left: 42%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"
+            ><i class="fa-solid fa-lightbulb text-success"></i> Educa</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="course.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Course</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="course.html">BCA</a></li>
+                  <li>
+                    <a class="dropdown-item" href="course.html"
+                      >Web Development</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="course.html"
+                      >App Development</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <i
+                  class="fa-solid fa-user m-3 text-success"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#demo1"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="offcanvas offcanvas-end" id="demo1">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-success">Log in</h1>
+        <button
+          type="button"
+          class="btn-close btn-success"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+            />
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" />
+              Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner_Text">
+        <h3 class="text-center">About us</h3>
+        <p class="text-center">
+          <span style="color: #0eb582">home</span>/ about
+        </p>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="about-img.jpg" width="100%" alt="" />
+        </div>
+        <div class="col-sm-6">
+          <h3 class="m-3">We Have Best Courses For You</h3>
+          <p class="m-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum in
+            enim sit? Molestiae et temporibus culpa? Optio quas fuga accusamus
+            magni, quam cumque numquam illum quos quia placeat, eos voluptas.
+          </p>
+          <div
+            class="m-2"
+            style="
+              width: 25%;
+              float: left;
+              text-align: center;
+              background-color: #f0fdfa;
+              border: 2px solid #0eb582;
+            "
+          >
+            <img src="about-icon-1.png" style="width: 40%" class="m-4" alt="" />
+            <h3 class="text-center">350+</h3>
+            <p class="text-muted text-center">courses</p>
+          </div>
+          <div
+            class="m-2"
+            style="
+              width: 25%;
+              float: left;
+              text-align: center;
+              background-color: #f0fdfa;
+              border: 2px solid #0eb582;
+            "
+          >
+            <img src="about-icon-2.png" style="width: 40%" class="m-4" alt="" />
+            <h3 class="text-center">1200+</h3>
+            <p class="text-muted text-center">courses</p>
+          </div>
+          <div
+            class="m-2"
+            style="
+              width: 25%;
+              float: left;
+              text-align: center;
+              background-color: #f0fdfa;
+              border: 2px solid #0eb582;
+            "
+          >
+            <img src="about-icon-3.png" style="width: 31%" class="m-4" alt="" />
+            <h3 class="text-center">10+</h3>
+            <p class="text-muted text-center">courses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-dark text-center mt-4">Expert Teacher</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="teacher-1.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="teacher-2.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="teacher-3.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="teacher-4.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="teacher-5.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="teacher-6.png"
+            width="100%"
+            class="m-2"
+            alt=""
+            style="background-color: #f0fdfa"
+          />
+          <div class="d-flex justify-content-between">
+            <div class="p-2">John Deo</div>
+            <div class="p-2 text-muted">expert tutor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="text-dark text-center mt-5">Our Students Review</h2>
+      <div class="row">
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              background-color: #f0fdfa;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-1.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              background-color: #f0fdfa;
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-2.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              background-color: #f0fdfa;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-3.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              background-color: #f0fdfa;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-4.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              background-color: #f0fdfa;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-5.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-1">
+          <div
+            style="
+              border: 1px solid #0eb582;
+              border-radius: 2px;
+              background-color: #f0fdfa;
+              text-align: center;
+            "
+          >
+            <img
+              src="pic-6.png"
+              alt="customer1"
+              width="35%"
+              style="border-radius: 250px; object-fit: cover; padding: 10px"
+            /><br />
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star text-success"></i>
+            <i class="fa-solid fa-star-half text-success"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              laudantium assumenda quidem repellat a architecto voluptates dicta
+              mollitia corrupti alias ipsam repellend
+            </p>
+            <h5>Raghav</h5>
+            <p class="text-muted">Satisfied Client</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row" style="background-color: #f0fdfa">
+        <div class="col-sm-3 mt-1">
+          <h3><i class="fa-solid fa-lightbulb text-success m-2"></i> Educa</h3>
+          <p class="m-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam at
+            dolorem amet quam debitis quibusdam quidem?
+          </p>
+          <div
+            style="
+              color: white;
+              background-color: #0eb582;
+              width: 40px;
+              height: 40px;
+              margin: 2%;
+              text-align: center;
+              float: left;
+            "
+          >
+            <i class="fa-brands fa-facebook m-2" style="font-size: 3vh"></i>
+          </div>
+          <div
+            style="
+              color: white;
+              background-color: #0eb582;
+              width: 40px;
+              margin: 2%;
+              height: 40px;
+              text-align: center;
+              float: left;
+            "
+          >
+            <i class="fa-brands fa-instagram m-2" style="font-size: 3vh"></i>
+          </div>
+          <div
+            style="
+              color: white;
+              background-color: #0eb582;
+              width: 40px;
+              margin: 2%;
+              height: 40px;
+              text-align: center;
+              float: left;
+            "
+          >
+            <i class="fa-brands fa-linkedin m-2" style="font-size: 3vh"></i>
+          </div>
+          <div
+            style="
+              color: white;
+              background-color: #0eb582;
+              width: 40px;
+              margin: 2%;
+              height: 40px;
+              text-align: center;
+              float: left;
+            "
+          >
+            <i class="fa-brands fa-twitter m-2" style="font-size: 3vh"></i>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-2">
+          <h3>Quick Links</h3>
+          <p>Home</p>
+          <p>About</p>
+          <p>Courses</p>
+          <p>Contact</p>
+        </div>
+        <div class="col-sm-3 mt-2">
+          <h3>Useful Links</h3>
+          <p>Help Center</p>
+          <p>Ask Questions</p>
+          <p>Send Feedback</p>
+          <p>Private Policy</p>
+          <p>Terms of use</p>
+        </div>
+        <div class="col-sm-3 mt-2">
+          <h3>Newsletter</h3>
+          <p>Subscribe for new updates</p>
+          <input type="text" placeholder="Enter your email" /><br /><br />
+          <button class="btn btn-success p-2 m-2">Subscribe</button>
+        </div>
+        <hr />
+        <h3 class="text-center text-dark">
+          Created by <span style="color: #0eb582">Raj Gupta</span> || All right
+          reserved
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>
